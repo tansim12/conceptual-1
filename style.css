@@ -1,0 +1,102 @@
+nav{
+    display: flex;
+    background-color: rgb(228, 25, 25);
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ol{ 
+    display:flex;
+    list-style: none;
+ 
+
+}
+.navbar-logo-1{
+    width: 120px;
+}
+.navbar{
+    font-size: 20px;
+
+}
+li{
+    padding: 20px;
+}
+li:hover{
+    color: azure;
+    transition: .2s;
+    text-decoration:  underline;
+}
+.one{
+    display: flex;
+   background-image:  linear-gradient(45deg,rgba(24, 23, 23, 0.884),rgb(48, 45, 45));
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.banar-pic-1{
+    width: 400px;
+}
+.banar-h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.banar-p{
+    font-size: 17px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    padding-top: 20px;
+    font-size: 18px;
+
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    transition: .2s;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-2-h1{
+    text-align: center;
+    font-size: 65px;
+}
+.product-pic{
+width: 400px;
+}
+.footer-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-1{
+   
+    color: white;
+}
+.icon-0,.icon-1,.icon-2{
+    background-color: black;padding: 30px;
+}
+
+.btn-about:hover{
+    background-color: red;
+}
